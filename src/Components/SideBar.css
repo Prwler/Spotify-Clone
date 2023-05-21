@@ -1,0 +1,58 @@
+.container{
+   font-family: Inter;
+   font-size: 2rem;
+   font-weight: 400;
+   color: white;
+   background-color: #242424;
+   margin: -9px;
+   width: 15rem;
+   height: 43rem;
+}
+
+.header{
+    margin-top: 0px;
+    margin-left: 1rem;
+    font-size: 30px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.list{
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.extra{
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.extrabtn{
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+
+.extrabtn:hover{
+    background-color: #494848;
+}
+
+.footer{
+    font-size: 10px;
+    margin-left: 1rem;
+    margin-top: 20rem;
+}
+
+.eng{
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-left: 1.5rem;
+    background-color: #242424;
+    color: white;
+
+}
