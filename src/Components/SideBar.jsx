@@ -1,15 +1,16 @@
 import React from 'react'
+import {FaSpotify} from 'react-icons/fa'
 import './SideBar.css'
 
 const SideBar = () => {
   return (
     <>
         <div className="container">
-            <h1 className='header'>Spotify</h1>
+            <h1 className='header'><FaSpotify />       Spotify</h1>
             <ul className='list'>
-                <li className='list-item'>Home</li>
-                <li className='list-item'>Search</li>
-                <li className='list-item'>Your Library</li>
+                <button className='list-item'>🏡          Home</button> <br/>
+                <button className='list-item'>🔎          Search</button> <br/>
+                <button className='list-item'>📚          Library</button>
             </ul>
             <div className='extra'>
                 <button className='extrabtn'>➕Create Playlist</button><br/>

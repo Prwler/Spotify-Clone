@@ -6,12 +6,12 @@
    background-color: #242424;
    margin: -9px;
    width: 15rem;
-   height: 43rem;
+   height: 45rem;
 }
 
 .header{
     margin-top: 0px;
-    margin-left: 1rem;
+    margin-left: -1rem;
     font-size: 30px;
     padding-left: 2rem;
     padding-top: 1rem;
@@ -20,7 +20,21 @@
 
 .list{
     font-size: 15px;
-    margin-left: 1rem;
+    margin-left: -2rem;
+}
+
+.list-item{
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.list-item:hover{
+    background-color:#494848;
 }
 
 .extra{
