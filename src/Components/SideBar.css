@@ -3,10 +3,11 @@
    font-size: 2rem;
    font-weight: 400;
    color: white;
-   background-color: #242424;
+   background-color: black;
    margin: -9px;
    width: 15rem;
    height: 45rem;
+   display:inline-block;
 }
 
 .header{
@@ -24,7 +25,7 @@
 }
 
 .list-item{
-    background-color: #242424;
+    background-color: Black;
     color: white;
     border: none;
     border-radius: 5px;
@@ -44,7 +45,7 @@
 }
 
 .extrabtn{
-    background-color: #242424;
+    background-color: Black;
     color: white;
     border: none;
     border-radius: 5px;
@@ -66,7 +67,7 @@
     border-radius: 30px;
     border: 1px solid white;
     margin-left: 1.5rem;
-    background-color: #242424;
+    background-color: Black;
     color: white;
 
 }

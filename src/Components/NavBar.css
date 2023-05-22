@@ -1,0 +1,40 @@
+.navbar{
+    background-color: rgb(14, 11, 11);
+    margin-top: -0.5rem;
+    height: 3rem;
+}
+
+.btn-container{
+    margin-left: 55rem;
+    padding-top: 6px ;
+}
+
+.signup-btn{
+    background-color: rgb(14, 11, 11);
+    color: white;
+    margin-right: 10px;
+    border: none;
+    border-radius: 50px;
+    height: 2rem;
+    width: 4rem;
+}
+
+.signup-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.login-btn{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    height: 2rem;
+    width: 4rem;
+}
+
+.login-btn:hover{
+    background-color: rgb(34, 30, 30);
+    color: white;
+    border: 1px white solid;
+}
