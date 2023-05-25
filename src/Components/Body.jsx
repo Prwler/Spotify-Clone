@@ -1,40 +1,36 @@
-import React from 'react'
-import PeacefulPiano from '/assets/PeacefulPiano.svg'
-import DeepFocus from '/assets/DeepFocus.svg'
-import Instrumental from '/assets/InstrumentalStudy.svg'
-import FocusFlow from '/assets/FocusFlow.svg'
-
-import './Body.css'
+import React from "react";
+import PlaylistBtn from "./PlaylistBtn";
+import "./Body.css";
 
 const Body = () => {
   return (
     <>
-        <h1>Focus</h1>
-        <button className='playlist-btn'>
-        <img src={PeacefulPiano} className="Ppiano" alt="" />
-            Peaceful Piano
-            <p className='btn-text'>Peaceful piano to help you slow down, breathe and relax</p>
-        </button>
+      <h1>Focus</h1>
+      <PlaylistBtn
+        imageSource={"/assets/PeacefulPiano.svg"}
+        title="Peaceful Piano"
+        body="Peaceful piano to help you slow down, breathe and relax."
+      />
 
-        <button className='playlist-btn'>
-        <img src={DeepFocus} className="Ppiano" alt="" />
-            Peaceful Piano
-            <p className='btn-text'>Peaceful piano to help you slow down, breathe and relax</p>
-        </button>
+      <PlaylistBtn
+        imageSource={"/assets/DeepFocus.svg"}
+        title="Deep Focus"
+        body="Keep calm and focus with ambient and post-rock music."
+      />
 
-        <button className='playlist-btn'>
-        <img src={Instrumental} className="Ppiano" alt="" />
-            Peaceful Piano
-            <p className='btn-text'>Peaceful piano to help you slow down, breathe and relax</p>
-        </button>
+      <PlaylistBtn
+        imageSource={"/assets/InstrumentalStudy.svg"}
+        title="Instrumental Study"
+        body="Focus with soft study music in the background."
+      />
 
-        <button className='playlist-btn'>
-        <img src={FocusFlow} className="Ppiano" alt="" />
-            Peaceful Piano
-            <p className='btn-text'>Peaceful piano to help you slow down, breathe and relax</p>
-        </button>
+      <PlaylistBtn
+        imageSource={"/assets/FocusFlow.svg"}
+        title="Focus Flow"
+        body="Uptempo instrumental hip hop beats."
+      />
     </>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;
