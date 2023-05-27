@@ -1,5 +1,6 @@
 import React from 'react'
-import Body from './Body'
+import { Route, Routes } from "react-router-dom"
+import Home from './Body'
 import './NavBar.css'
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
             <button className='login-btn'>Log in</button>
         </div>
       </nav>
-      <Body/>
+      <Home/>
     </>
   )
 }
