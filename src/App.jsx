@@ -1,6 +1,4 @@
 import './App.css'
-import SideBar from './Components/SideBar'
-import NavBar from './Components/Navbar'
 import AppLayout from './Components/AppLayout'
 
 function App() {
