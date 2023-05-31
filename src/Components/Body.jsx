@@ -1,17 +1,24 @@
-import React from "react";
+import React, { Suspense } from "react";
 import PlaylistBtn from "./PlaylistBtn";
+import { Route, Routes } from "react-router-dom";
+import DeepFocus from "../Pages/DeepFocus";
 import "./Body.css";
 
 const Body = () => {
   return (
     <>
       <h1>Focus</h1>
+      {/* <Suspense fallback={<div>Loading.......</div>}>
+        <Routes>
+          <Route path="/DeepFocus" element={<DeepFocus />}></Route>
+        </Routes>
+      </Suspense> */}
+
       <PlaylistBtn
         imageSource={"/assets/PeacefulPiano.svg"}
         title="Peaceful Piano"
         body="Peaceful piano to help you slow down, breathe and relax."
       />
-
       <PlaylistBtn
         imageSource={"/assets/DeepFocus.svg"}
         title="Deep Focus"
